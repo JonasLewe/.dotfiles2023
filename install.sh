@@ -1,5 +1,10 @@
 #!/usr/bin/env bash
 
+# FUSE is required for AppImages
+if ! dpkg -s fuse >/dev/null 2>&1; then
+  sudo apt install -y fuse
+fi
+
 if which nvim >/dev/null; then
     echo "Neovim version $(nvim --version | head -1 | awk '{print $2}') is already installed."
 else
