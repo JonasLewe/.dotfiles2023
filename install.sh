@@ -2,6 +2,6 @@
 
 rm -rf ~/.config/nvim
 
-mkdir ~/.config
+mkdir -p ~/.config/nvim
 
 ln -s $(pwd)/nvim ~/.config/nvim
