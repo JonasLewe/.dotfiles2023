@@ -21,12 +21,12 @@ if [[ -e $config_dir ]]; then
     echo
     if [[ $REPLY =~ ^[Yy]$ ]]; then
         rm -rf $config_dir
-        mkdir -p $config_dir
-        ln -s $(pwd)/nvim/init.vim $config_dir/init.vim
     else
         echo "Exiting neovim configuration setup."
         exit 0
     fi
 fi
 
+mkdir -p $config_dir
+ln -s $(pwd)/nvim/init.vim $config_dir/init.vim
 
