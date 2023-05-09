@@ -19,14 +19,12 @@ mason_lspconfig.setup({
     -- "tsserver",
     -- "html",
     -- "cssls",
-	-- "jsonls",
+	"jsonls",
 	"marksman", -- markdown lsp
 	"ltex", -- latex lsp
-    -- "tailwindcss",
-    -- "sumneko_lua",
     "lua_ls",
-    -- "jedi_language_server", -- python lsp
-    -- "sqlls", 
+    "pylsp", -- python lsp
+    -- "sqls", 
     -- "dockerls", 
     -- "docker_compose_language_service", 
   },
