@@ -1,0 +1,6 @@
+require("jlewe.plugins-setup")
+require("jlewe.core.options")
+require("jlewe.core.keymaps")
+require("jlewe.core.colorscheme")
+require("jlewe.plugins.comment")
+require("jlewe.plugins.nvim-tree")
