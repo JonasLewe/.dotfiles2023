@@ -7,4 +7,16 @@ end
 vim.g.loaded = 1
 vim.g.loaded_netrwPlugin = 1
 
-nvimtree.setup()
+-- change color for arrows in tree to light blue
+vim.cmd([[ highlight NvimTreeIndentMarker guifg=#3FC5FF ]])
+
+nvimtree.setup({
+  -- add setup stuff here
+  actions = {
+    open_file = {
+      window_picker = {
+        enable = false,
+      },
+    },
+  },
+})
