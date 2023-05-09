@@ -16,18 +16,12 @@ mason.setup()
 mason_lspconfig.setup({
   -- list of servers for mason to install
   ensure_installed = {
-    -- "tsserver",
-    -- "html",
-    -- "cssls",
 	"jsonls",
 	"marksman", -- markdown lsp
 	"ltex", -- latex lsp
     "lua_ls",
     "pylsp", -- python lsp
-    -- "sqls", 
-    -- "dockerls", 
-    -- "docker_compose_language_service", 
   },
   -- auto-install configured servers (with lspconfig)
-  -- automatic_installation = true, -- not the same as ensure_installed
+  automatic_installation = true, -- not the same as ensure_installed
 })
