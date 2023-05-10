@@ -20,7 +20,7 @@ mason_lspconfig.setup({
 	"marksman", -- markdown lsp
 	"ltex", -- latex lsp
     "lua_ls",
-    "pylsp", -- python lsp
+	"pyright", -- python lsp
   },
   -- auto-install configured servers (with lspconfig)
   automatic_installation = true, -- not the same as ensure_installed
