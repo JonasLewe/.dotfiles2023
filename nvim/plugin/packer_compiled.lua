@@ -194,6 +194,11 @@ _G.packer_plugins = {
     path = "/home/jonas/.local/share/nvim/site/pack/packer/start/vim-nightfly-guicolors",
     url = "https://github.com/bluz71/vim-nightfly-guicolors"
   },
+  ["vim-sendtowindow"] = {
+    loaded = true,
+    path = "/home/jonas/.local/share/nvim/site/pack/packer/start/vim-sendtowindow",
+    url = "https://github.com/karoliskoncevicius/vim-sendtowindow"
+  },
   ["vim-startify"] = {
     loaded = true,
     path = "/home/jonas/.local/share/nvim/site/pack/packer/start/vim-startify",
