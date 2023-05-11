@@ -46,6 +46,9 @@ return packer.startup(function(use)
   -- essential plugins
   use("tpope/vim-surround")
 
+  -- use git within neovim
+  use("tpope/vim-fugitive")
+
   -- commenting single and multiple lines with 'gc'
   use("numToStr/Comment.nvim")
 
