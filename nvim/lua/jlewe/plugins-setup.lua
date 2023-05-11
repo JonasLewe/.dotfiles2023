@@ -30,12 +30,12 @@ end
 return packer.startup(function(use)
   -- packer can manage itself
   use("wbthomason/packer.nvim")
-  
+
   -- lua functions that many plugins use
   use("nvim-lua/plenary.nvim")
 
   -- preferred colorscheme
-  use("bluz71/vim-nightfly-guicolors") 
+  use("bluz71/vim-nightfly-guicolors")
 
   -- tmux & split window navigation
   use("christoomey/vim-tmux-navigator")
@@ -48,13 +48,13 @@ return packer.startup(function(use)
 
   -- commenting single and multiple lines with 'gc'
   use("numToStr/Comment.nvim")
-  
+
   -- file explorer
   use("nvim-tree/nvim-tree.lua")
-  
+
   -- vs-code like icons
   use("nvim-tree/nvim-web-devicons")
-  
+
   -- statusline
   use("nvim-lualine/lualine.nvim")
 
@@ -78,9 +78,6 @@ return packer.startup(function(use)
   -- managing & installing lsp servers, linters & formatters
   use("williamboman/mason.nvim") -- in charge of managing lsp servers, linters & formatters
   use("williamboman/mason-lspconfig.nvim") -- bridges gap b/w mason & lspconfig
-
-  -- configuring lsp servers
-  use("neovim/nvim-lspconfig") -- easily configure language servers
 
   -- configuring lsp servers
   use("neovim/nvim-lspconfig") -- easily configure language servers
