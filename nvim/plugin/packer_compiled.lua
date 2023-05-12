@@ -124,6 +124,11 @@ _G.packer_plugins = {
     path = "/home/jonas/.local/share/nvim/site/pack/packer/start/lualine.nvim",
     url = "https://github.com/nvim-lualine/lualine.nvim"
   },
+  ["magma-nvim"] = {
+    loaded = true,
+    path = "/home/jonas/.local/share/nvim/site/pack/packer/start/magma-nvim",
+    url = "https://github.com/dccsillag/magma-nvim"
+  },
   ["mason-lspconfig.nvim"] = {
     loaded = true,
     path = "/home/jonas/.local/share/nvim/site/pack/packer/start/mason-lspconfig.nvim",

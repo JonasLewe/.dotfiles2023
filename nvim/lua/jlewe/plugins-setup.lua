@@ -67,6 +67,9 @@ return packer.startup(function(use)
   -- send commands to python REPL
   use("karoliskoncevicius/vim-sendtowindow")
 
+  -- run code interactively with jupyter
+  use({"dccsillag/magma-nvim", run = ":UpdateRemotePlugins"})
+
   -- fuzzy finding w/ telescope
   use({ "nvim-telescope/telescope-fzf-native.nvim", run = "make" }) -- dependency for better sorting performance
   use({ "nvim-telescope/telescope.nvim", branch = "0.1.x", requires = {{'nvim-lua/plenary.nvim'}}}) -- fuzzy finder
